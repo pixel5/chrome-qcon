@@ -1,0 +1,66 @@
+/*
+Overrides to the Material Design ['Paper'] bootswatch CSS
+*/
+/* 
+    Created on : Jun 27, 2015, 6:18:37 PM
+    Author     : Aaron
+*/
+
+.navbar {
+  min-height:15px;
+  background-color:#f26532;
+  width:100%;
+  text-align:center;
+}
+
+.qcon-header {
+  color:#fff;
+  font-size:20px;
+}
+
+textarea:hover, 
+input:hover, 
+textarea:active, 
+input:active, 
+textarea:focus, 
+input:focus,
+button:focus,
+button:active,
+button:hover
+{
+    outline:0px !important;
+    -webkit-appearance:none;
+}
+
+input {
+  width:100%;
+}
+
+.twitter-typeahead {
+  width:100%;
+}
+
+.qcon-container {
+  background-image: url('../images/q.png');
+  background-repeat:no-repeat;
+  background-size:50%;
+  background-position:center;
+  height:100%;
+}
+
+.credits {
+  font-size:12px;
+  margin-right:5px;
+  float:right;
+}
+
+.qclink {
+  font-size:12px;
+  margin-left:5px;
+  float:left;
+}
+
+.player-name {
+  font-weight:bold;
+  color:#b6390c;
+}
